@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ipm_job_profile>
+<calltable nsections="2" >
+<section module="MPI" nentries="50" >
+<entry name="MPI_Init" />
+<entry name="MPI_Init_thread" />
+<entry name="MPI_Finalize" />
+<entry name="MPI_Comm_rank" />
+<entry name="MPI_Comm_size" />
+<entry name="MPI_Send" />
+<entry name="MPI_Ssend" />
+<entry name="MPI_Rsend" />
+<entry name="MPI_Bsend" />
+<entry name="MPI_Isend" />
+<entry name="MPI_Issend" />
+<entry name="MPI_Irsend" />
+<entry name="MPI_Ibsend" />
+<entry name="MPI_Recv" />
+<entry name="MPI_Irecv" />
+<entry name="MPI_Sendrecv" />
+<entry name="MPI_Sendrecv_replace" />
+<entry name="MPI_Wait" />
+<entry name="MPI_Waitany" />
+<entry name="MPI_Waitall" />
+<entry name="MPI_Waitsome" />
+<entry name="MPI_Probe" />
+<entry name="MPI_Iprobe" />
+<entry name="MPI_Send_init" />
+<entry name="MPI_Ssend_init" />
+<entry name="MPI_Rsend_init" />
+<entry name="MPI_Bsend_init" />
+<entry name="MPI_Recv_init" />
+<entry name="MPI_Buffer_attach" />
+<entry name="MPI_Buffer_detach" />
+<entry name="MPI_Test" />
+<entry name="MPI_Testany" />
+<entry name="MPI_Testall" />
+<entry name="MPI_Testsome" />
+<entry name="MPI_Start" />
+<entry name="MPI_Startall" />
+<entry name="MPI_Bcast" />
+<entry name="MPI_Reduce" />
+<entry name="MPI_Reduce_scatter" />
+<entry name="MPI_Barrier" />
+<entry name="MPI_Gather" />
+<entry name="MPI_Gatherv" />
+<entry name="MPI_Scatter" />
+<entry name="MPI_Scatterv" />
+<entry name="MPI_Scan" />
+<entry name="MPI_Allgather" />
+<entry name="MPI_Allgatherv" />
+<entry name="MPI_Allreduce" />
+<entry name="MPI_Alltoall" />
+<entry name="MPI_Alltoallv" />
+</section>
+<section module="POSIXIO" nentries="25" >
+<entry name="fopen" />
+<entry name="fdopen" />
+<entry name="freopen" />
+<entry name="fclose" />
+<entry name="fflush" />
+<entry name="fread" />
+<entry name="fwrite" />
+<entry name="fseek" />
+<entry name="ftell" />
+<entry name="rewind" />
+<entry name="fgetpos" />
+<entry name="fsetpos" />
+<entry name="fgetc" />
+<entry name="getc" />
+<entry name="ungetc" />
+<entry name="read" />
+<entry name="write" />
+<entry name="open" />
+<entry name="open64" />
+<entry name="creat" />
+<entry name="close" />
+<entry name="truncate" />
+<entry name="ftruncate" />
+<entry name="truncate64" />
+<entry name="ftruncate64" />
+</section>
+</calltable>
+<task ipm_version="0.921" cookie="nocookie" mpi_rank="0" mpi_size="1" stamp_init="1422600335.679900" stamp_final="1422600335.986061" username="ucsb-train33" allocationname="unknown" flags="0" pid="12628" >
+<job nhosts="1" ntasks="1" start="1422600335" final="1422600335" cookie="nocookie" code="unknown" >2345960.tscc-mgr.local</job>
+<host mach_name="x86_64" mach_info="x86_64_Linux" >tscc-0-31.sdsc.</host>
+<perf wtime="3.06161e-01" utime="2.47962e-01" stime="3.19950e-02" mtime="0.00000e+00" gflop="4.47599e-05" gbyte="9.34982e-02" ></perf>
+<modules nmod="2">
+<module name="MPI" time="0.00000e+00" ></module>
+<module name="POSIXIO" time="0.00000e+00" ></module>
+</modules>
+<switch bytes_tx="0.00000e+00" bytes_rx="0.00000e+00" ></switch>
+<cmdline realpath="/home/ucsb-train33/hw3/a.out" md5sum="68d553c12341a03e930041009300d87fff" >./a.out </cmdline>
+<regions n="1" >
+<region label="ipm_noregion" nexits="1" wtime="2.78347e-01" utime="2.24966e-01" stime="2.79950e-02" mtime="0.00000e+00" id="0" >
+<modules nmod="2">
+<module name="MPI" time="0.00000e+00" ></module>
+<module name="POSIXIO" time="0.00000e+00" ></module>
+</modules>
+<hpm api="PAPI" ncounter="1" eventset="0" gflop="4.48253e-05">
+<counter name="PAPI_FP_OPS" > 12477 </counter>
+</hpm>
+<func name="MPI_Init" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Comm_rank" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Comm_size" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+</region>
+</regions>
+<internal rank="0" log_i="1422600335.986061" log_t="1.4226e+09" report_delta="-1.0000e+00" fname="./ucsb-train33.1422600335.ipm.xml" logrank="0" ></internal>
+</task>
+</ipm_job_profile>

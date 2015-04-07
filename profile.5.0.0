@@ -1,0 +1,14 @@
+11 templated_functions_MULTI_TIME
+# Name Calls Subrs Excl Incl ProfileCalls # <metadata><attribute><name>Metric Name</name><value>TIME</value></attribute><attribute><name>CPU MHz</name><value>2593.865</value></attribute><attribute><name>Hostname</name><value>tscc-0-14.sdsc.edu</value></attribute><attribute><name>MPI Processor Name</name><value>tscc-0-14.sdsc.edu</value></attribute><attribute><name>Node Name</name><value>tscc-0-14.sdsc.edu</value></attribute><attribute><name>Starting Timestamp</name><value>1422601872094116</value></attribute><attribute><name>Timestamp</name><value>1422601872094296</value></attribute><attribute><name>pid</name><value>56675</value></attribute></metadata>
+".TAU application" 1 1 9455 23312007 0 GROUP="TAU_USER" 
+"main [{/home/ucsb-train33/hw3/nBody.c} {3,0}]" 1 6 498 23302552 0 GROUP="TAU_DEFAULT" 
+"MPI_Init()  " 1 0 1266750 1266750 0 GROUP="MPI" 
+"MPI_Comm_rank()  " 2 0 1 1 0 GROUP="MPI" 
+"MPI_Comm_size()  " 3 0 1 1 0 GROUP="MPI" 
+"gennbody [{/home/ucsb-train33/hw3/submit.c} {78,0}]" 1 1 148 148 0 GROUP="TAU_DEFAULT" 
+"nbody [{/home/ucsb-train33/hw3/submit.c} {136,0}]" 1 32005 20934027 21975471 0 GROUP="TAU_DEFAULT" 
+"MPI_Recv()  " 16000 0 866686 866686 0 GROUP="MPI" 
+"MPI_Send()  " 16000 0 135132 135132 0 GROUP="MPI" 
+"MPI_Gather()  " 3 0 39625 39625 0 GROUP="MPI" 
+"MPI_Finalize()  " 1 0 59684 59684 0 GROUP="MPI" 
+0 aggregates
